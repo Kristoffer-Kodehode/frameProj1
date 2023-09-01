@@ -1,7 +1,7 @@
 /**
  * a card for holding information
  *
- * @param {name: string, description: string, link: string, imgURL: string} properties
+ * @param {{name: string, description: string, link: string, imgURL: string}} properties
  * @returns HTML element containing information about a project
  */
 

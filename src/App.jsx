@@ -1,4 +1,4 @@
-import Card from "./assets/card/card";
+import Card from "./assets/components/card/card";
 import Layout from "./assets/layout/layout";
 import "./index.css";
 
@@ -8,12 +8,22 @@ function App() {
       <Layout>
         <Card
           name="This project"
-          imgURL="../assets/projImg1"
+          imgURL="./assets/projImg1.png"
           description='This "beautiful" project here'
-          link=""
+          link="https://github.com/Kristoffer-Kodehode/frameProj1"
         ></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card
+          name="Some other project"
+          imgURL="./assets/projImg1.png"
+          description="This other project"
+          link="https://github.com/Kristoffer-Kodehode/frameProj1"
+        ></Card>
+        <Card
+          name="Definetely not this project"
+          imgURL="./assets/projImg1.png"
+          description="This absolutely different-from-the-other-two project"
+          link="https://github.com/Kristoffer-Kodehode/frameProj1"
+        ></Card>
       </Layout>
     </>
   );
