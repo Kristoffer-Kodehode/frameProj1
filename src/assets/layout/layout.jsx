@@ -13,6 +13,7 @@ function Layout(properties) {
       <header>
         <Logo size="60"></Logo>
         <h1>Projects</h1>
+        <Logo size="60"></Logo>
       </header>
       <main>{properties.children}</main>
       <footer>
