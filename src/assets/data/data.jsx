@@ -20,7 +20,7 @@ export const projects = [
     id: 3,
     name: "Definetely not the same project",
     imgURL: projImg2,
-    description: "This absolutely-different-from-the-other-two project",
+    description: "This absolutely-different-from-the-other-two projects",
     link: "https://github.com/Kristoffer-Kodehode/frameProj1",
   },
 ];
