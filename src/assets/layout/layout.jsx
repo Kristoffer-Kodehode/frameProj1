@@ -17,6 +17,7 @@ function Layout(properties) {
       <main>{properties.children}</main>
       <footer>
         <p>By Some Idiot</p>
+        <span>who is terrible at design</span>
       </footer>
     </>
   );

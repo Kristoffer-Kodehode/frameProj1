@@ -9,12 +9,12 @@ function Card(properties) {
   const { name, description, link, imgURL } = properties;
 
   return (
-    <>
-      <h1 className="proj-title">{name}</h1>
-      <img src={imgURL} alt="" />
-      <p className="proj-description">{description}</p>
+    <div className="projectCard">
+      <h2 className="projTitle">{name}</h2>
+      <img className="projImg" src={imgURL} alt="" />
+      <p className="projDescription">{description}</p>
       <a href={link}>Source code link</a>
-    </>
+    </div>
   );
 }
 

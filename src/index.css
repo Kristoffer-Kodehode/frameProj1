@@ -1,0 +1,49 @@
+:root {
+  --color_primary: #242424;
+  --color_secondary: #276632;
+  --color_tertiary: #f7ffff;
+}
+
+html,
+body {
+  color: var(--color_tertiary);
+  background-color: var(--color_primary);
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 3em 0;
+}
+
+footer span {
+  color: var(--color_secondary) -5px -2px 6px;
+}
+
+span {
+  font-size: small;
+}
+
+.projectCard {
+  box-shadow: var(--color_secondary) -7px -5px 6px, var(--color_secondary) 7px 5px 6px;
+  max-width: 60%;
+  justify-content: center;
+  padding: 3em;
+  margin: 5em auto;
+}
+
+.projImg {
+  max-width: 30em;
+}
