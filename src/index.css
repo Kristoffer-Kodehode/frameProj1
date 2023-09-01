@@ -37,11 +37,12 @@ span {
 }
 
 .projectCard {
-  box-shadow: var(--color_secondary) -7px -5px 6px, var(--color_secondary) 7px 5px 6px;
+  box-shadow: var(--color_secondary) -7px -5px 60px, var(--color_secondary) 7px 5px 60px;
   max-width: 60%;
   justify-content: center;
   padding: 3em;
   margin: 5em auto;
+  border-radius: 13px;
 }
 
 .projImg {
